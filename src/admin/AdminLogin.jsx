@@ -18,7 +18,7 @@ export default function AdminLogin() {
 
     try {
       const res = await axios.post(
-        "hhttps://backend-porto-production-f413.up.railway.app/api/admin/login",
+        "https://backend-porto-production-f413.up.railway.app/api/admin/login",
         form
       );
 
